@@ -1,0 +1,14 @@
+{
+    "name": "travel_planner_agent",
+    "description": ["The TravelPlannerAgent can analyze the basic parameters of a travel plan (destination, dates, budget, interests, etc.) and return a brief travel itinerary."],
+    "tools": [],
+    "meta": {
+        "author": "autogen",
+        "version": "0.0.3",
+        "license": "MIT"
+    },
+    "build": {
+        "entry": "agent.py",
+        "module": "AutoGenAgent"
+    }
+}
