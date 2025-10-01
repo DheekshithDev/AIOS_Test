@@ -17,7 +17,7 @@ def save_file_from_base64(encoded_str: str, filename: str):
     print(f"Saved: {filename}")
 
 # Example usage
-b64_str = """YXJ4aXY="""
+b64_str = """YXV0b2dlbi1hZ2VudGNoYXQ9PTAuMi40MAo="""
 
 # Save as JSON
 save_file_from_base64(b64_str, "meta_requirements.txt")

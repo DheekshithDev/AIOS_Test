@@ -1,0 +1,14 @@
+{
+    "name": "Research",
+    "description": ["The planner interact with Admin (user) to revise a plan. Only when the Admin types “Approve”, we can move to the next step. The engineer will write code to retrieve papers from the internet. The code will be executed by executor. When the code is executed successfully, the scientist will read the papers and write a summary. The summary will be reviewed by the Admin and give comments. When the Admin types “TERMINATE”, the process will be terminated."],
+    "tools": [],
+    "meta": {
+        "author": "autogen",
+        "version": "0.0.3",
+        "license": "MIT"
+    },
+    "build": {
+        "entry": "agent.py",
+        "module": "AutoGenAgent"
+    }
+}

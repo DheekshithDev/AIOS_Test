@@ -1,0 +1,14 @@
+{
+    "name": "Interview_agent",
+    "description": ["Help you prepare interview by giving you some interview questions"],
+    "tools": [],
+    "meta": {
+        "author": "autogen",
+        "version": "0.0.2",
+        "license": "MIT"
+    },
+    "build": {
+        "entry": "agent.py",
+        "module": "AutoGenAgent"
+    }
+}

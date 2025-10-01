@@ -1,0 +1,14 @@
+{
+    "name": "AgentRecommendation",
+    "description": ["For a query, recommend some agents that can solve the query"],
+    "tools": [],
+    "meta": {
+        "author": "HG",
+        "version": "0.0.2",
+        "license": "MIT"
+    },
+    "build": {
+        "entry": "agent.py",
+        "module": "AutoGenAgent"
+    }
+}

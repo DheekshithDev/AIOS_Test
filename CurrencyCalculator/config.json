@@ -1,0 +1,14 @@
+{
+    "name": "CurrencyCalculator",
+    "description": ["Exchange Currency"],
+    "tools": [],
+    "meta": {
+        "author": "autogen",
+        "version": "0.0.3",
+        "license": "MIT"
+    },
+    "build": {
+        "entry": "agent.py",
+        "module": "AutoGenAgent"
+    }
+}
